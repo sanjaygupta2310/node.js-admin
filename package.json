@@ -1,0 +1,25 @@
+{
+  "name": "officeproject",
+  "version": "1.0.0",
+  "description": "IMARTICUS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "hbs": "^4.2.0",
+    "http": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "twig": "^1.15.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
